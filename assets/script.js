@@ -31,7 +31,7 @@ function generatePassword() {
     } else if (initiate < 7 || initiate > 16) {
         initiate = parseInt(prompt("You must select a length between 8 and 15 characters."));
     } else {
-        confirmNumber = confirm("This password will conatin Numbers.");
+        confirmNumber = confirm("This password will contain Numbers.");
         confirmCharacter = confirm("This password will contain Special Characters.");
         confirmUppercase = confirm("This password will contain Uppercase letters.");
         confirmLowercase = confirm("And lastly, This password contain Lowercase letters.");
